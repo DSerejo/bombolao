@@ -49,8 +49,7 @@ class Navbar extends React.Component {
                 <div className="container">
                     <div className="navbar-header">
                         <Link className="navbar-brand" to="/account">
-                            <img className="navbar-logo" src="/public/media/logo-square.png" />
-                            <span className="navbar-brand-label">Aqua</span>
+                            <span className="navbar-brand-label">Bom Bolão</span>
                         </Link>
                         <button
                             className="navbar-toggle collapsed"

@@ -15,7 +15,7 @@ class HomePage extends React.Component {
                 activeTab="home">
 
                 <div className="jumbotron">
-                    <h1>Success</h1>
+                    <h1>Successaaa</h1>
                     <div>
                         <p className="lead">Your Node.js website and user system is running.</p>
                         <div>

@@ -18,14 +18,14 @@ const config = {
             $filter: 'env',
             test: 9000,
             production: process.env.PORT,
-            $default: 8000
+            $default: 5000
         }
     },
     baseUrl: {
         $filter: 'env',
         $meta: 'values should not end in "/"',
-        production: 'https://getaqua.herokuapp.com',
-        $default: 'http://127.0.0.1:8000'
+        production: 'https://bombolao.herokuapp.com/',
+        $default: 'http://127.0.0.1:5000'
     },
     authAttempts: {
         forIp: 50,
@@ -41,8 +41,8 @@ const config = {
             uri: {
                 $filter: 'env',
                 production: process.env.MONGODB_URI,
-                test: 'mongodb://localhost:27017/aqua-test',
-                $default: 'mongodb://localhost:27017/aqua'
+                test: 'mongodb://root:root@ds139817.mlab.com:39817/heroku_k9twz344',
+                $default: 'mongodb://root:root@ds139817.mlab.com:39817/heroku_k9twz344'
             }
         },
         autoIndex: true
