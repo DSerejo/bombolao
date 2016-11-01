@@ -68,7 +68,7 @@ lab.afterEach((done) => {
 });
 
 
-lab.experiment('Auth Plugin', () => {
+lab.experiment.only('Auth Plugin', () => {
 
     lab.test('it returns authentication credentials', (done) => {
 

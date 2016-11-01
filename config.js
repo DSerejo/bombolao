@@ -41,7 +41,7 @@ const config = {
             uri: {
                 $filter: 'env',
                 production: process.env.MONGODB_URI,
-                test: 'mongodb://root:root@ds139817.mlab.com:39817/heroku_k9twz344',
+                test: 'mongodb://root:seilah123@ds037005.mlab.com:37005/heroku_8cjjgm0j',
                 $default: 'mongodb://root:root@ds139817.mlab.com:39817/heroku_k9twz344'
             }
         },

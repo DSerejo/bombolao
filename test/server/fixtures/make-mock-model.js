@@ -1,6 +1,6 @@
 'use strict';
 const MongoModels = require('mongo-models');
-
+require('reflect-metadata');
 
 const MakeMockModel = function () {
 
